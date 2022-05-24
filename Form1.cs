@@ -16,6 +16,19 @@ namespace Calculadora
         {
             InitializeComponent();
         }
+<<<<<<< HEAD
+=======
+<<<<<<< HEAD
+
+        private void oneButton_Click(object sender, EventArgs e)
+        {
+            if (textBox1 == null || textBox1.Text == "0")
+            {
+                textBox1.Text = "1";
+            }
+            else { 
+=======
+>>>>>>> 23db5bb8f60b19f76262f5b013aa5bbbbc397ba6
         double a;
         double b;
         string c;
@@ -27,13 +40,25 @@ namespace Calculadora
             }
             else
             {
+<<<<<<< HEAD
+=======
+>>>>>>> master
+>>>>>>> 23db5bb8f60b19f76262f5b013aa5bbbbc397ba6
                 textBox1.Text = textBox1.Text + "1";
             }
         }
 
         private void twoButton_Click(object sender, EventArgs e)
         {
+<<<<<<< HEAD
             if (textBox1.Text == "")
+=======
+<<<<<<< HEAD
+            if (textBox1 == null || textBox1.Text == "0")
+=======
+            if (textBox1.Text == "")
+>>>>>>> master
+>>>>>>> 23db5bb8f60b19f76262f5b013aa5bbbbc397ba6
             {
                 textBox1.Text = "2";
             }
@@ -45,7 +70,15 @@ namespace Calculadora
 
         private void threeButton_Click(object sender, EventArgs e)
         {
+<<<<<<< HEAD
             if (textBox1.Text == "")
+=======
+<<<<<<< HEAD
+            if (textBox1 == null || textBox1.Text == "0")
+=======
+            if (textBox1.Text == "")
+>>>>>>> master
+>>>>>>> 23db5bb8f60b19f76262f5b013aa5bbbbc397ba6
             {
                 textBox1.Text = "3";
             }
@@ -57,7 +90,15 @@ namespace Calculadora
 
         private void fourButton_Click(object sender, EventArgs e)
         {
+<<<<<<< HEAD
             if (textBox1.Text == "")
+=======
+<<<<<<< HEAD
+            if (textBox1 == null || textBox1.Text == "0")
+=======
+            if (textBox1.Text == "")
+>>>>>>> master
+>>>>>>> 23db5bb8f60b19f76262f5b013aa5bbbbc397ba6
             {
                 textBox1.Text = "4";
             }
@@ -69,7 +110,15 @@ namespace Calculadora
 
         private void fiveButton_Click(object sender, EventArgs e)
         {
+<<<<<<< HEAD
             if (textBox1.Text == "")
+=======
+<<<<<<< HEAD
+            if (textBox1 == null || textBox1.Text == "0")
+=======
+            if (textBox1.Text == "")
+>>>>>>> master
+>>>>>>> 23db5bb8f60b19f76262f5b013aa5bbbbc397ba6
             {
                 textBox1.Text = "5";
             }
@@ -81,7 +130,15 @@ namespace Calculadora
 
         private void sixButton_Click(object sender, EventArgs e)
         {
+<<<<<<< HEAD
             if (textBox1.Text == "")
+=======
+<<<<<<< HEAD
+            if (textBox1 == null || textBox1.Text == "0")
+=======
+            if (textBox1.Text == "")
+>>>>>>> master
+>>>>>>> 23db5bb8f60b19f76262f5b013aa5bbbbc397ba6
             {
                 textBox1.Text = "6";
             }
@@ -93,7 +150,15 @@ namespace Calculadora
 
         private void sevenButton_Click(object sender, EventArgs e)
         {
+<<<<<<< HEAD
             if (textBox1.Text == "")
+=======
+<<<<<<< HEAD
+            if (textBox1 == null || textBox1.Text == "0")
+=======
+            if (textBox1.Text == "")
+>>>>>>> master
+>>>>>>> 23db5bb8f60b19f76262f5b013aa5bbbbc397ba6
             {
                 textBox1.Text = "7";
             }
@@ -105,7 +170,15 @@ namespace Calculadora
 
         private void eightButton_Click(object sender, EventArgs e)
         {
+<<<<<<< HEAD
             if (textBox1.Text == "")
+=======
+<<<<<<< HEAD
+            if (textBox1 == null || textBox1.Text == "0")
+=======
+            if (textBox1.Text == "")
+>>>>>>> master
+>>>>>>> 23db5bb8f60b19f76262f5b013aa5bbbbc397ba6
             {
                 textBox1.Text = "8";
             }
@@ -117,7 +190,15 @@ namespace Calculadora
 
         private void nineButton_Click(object sender, EventArgs e)
         {
+<<<<<<< HEAD
             if (textBox1.Text == "")
+=======
+<<<<<<< HEAD
+            if (textBox1 == null || textBox1.Text == "0")
+=======
+            if (textBox1.Text == "")
+>>>>>>> master
+>>>>>>> 23db5bb8f60b19f76262f5b013aa5bbbbc397ba6
             {
                 textBox1.Text = "9";
             }
@@ -129,7 +210,15 @@ namespace Calculadora
 
         private void zeroButton_Click(object sender, EventArgs e)
         {
+<<<<<<< HEAD
             if (textBox1.Text == "")
+=======
+<<<<<<< HEAD
+            if (textBox1 == null || textBox1.Text == "0")
+=======
+            if (textBox1.Text == "")
+>>>>>>> master
+>>>>>>> 23db5bb8f60b19f76262f5b013aa5bbbbc397ba6
             {
                 textBox1.Text = "0";
             }
@@ -141,38 +230,116 @@ namespace Calculadora
 
         private void plusButton_Click(object sender, EventArgs e)
         {
+<<<<<<< HEAD
+=======
+<<<<<<< HEAD
+            if (textBox1 == null || textBox1.Text == "0")
+            {
+                textBox1.Text = "+";
+            }
+            else
+            {
+                textBox1.Text = textBox1.Text + "+";
+            }
+=======
+>>>>>>> 23db5bb8f60b19f76262f5b013aa5bbbbc397ba6
             a = Convert.ToDouble(this.textBox1.Text);
             c = "+";
             this.textBox1.Clear();
             this.textBox1.Focus();
+<<<<<<< HEAD
+=======
+>>>>>>> master
+>>>>>>> 23db5bb8f60b19f76262f5b013aa5bbbbc397ba6
         }
 
         private void minusButton_Click(object sender, EventArgs e)
         {
+<<<<<<< HEAD
+=======
+<<<<<<< HEAD
+            if (textBox1 == null || textBox1.Text == "0")
+            {
+                textBox1.Text = "-";
+            }
+            else
+            {
+                textBox1.Text = textBox1.Text + "-";
+            }
+=======
+>>>>>>> 23db5bb8f60b19f76262f5b013aa5bbbbc397ba6
             a = Convert.ToDouble(this.textBox1.Text);
             c = "-";
             this.textBox1.Clear();
             this.textBox1.Focus();
+<<<<<<< HEAD
+=======
+>>>>>>> master
+>>>>>>> 23db5bb8f60b19f76262f5b013aa5bbbbc397ba6
         }
 
         private void multiplyButton_Click(object sender, EventArgs e)
         {
+<<<<<<< HEAD
+=======
+<<<<<<< HEAD
+            if (textBox1 == null || textBox1.Text == "0")
+            {
+                textBox1.Text = "x";
+            }
+            else
+            {
+                textBox1.Text = textBox1.Text + "x";
+            }
+=======
+>>>>>>> 23db5bb8f60b19f76262f5b013aa5bbbbc397ba6
             a = Convert.ToDouble(this.textBox1.Text);
             c = "*";
             this.textBox1.Clear();
             this.textBox1.Focus();
+<<<<<<< HEAD
+=======
+>>>>>>> master
+>>>>>>> 23db5bb8f60b19f76262f5b013aa5bbbbc397ba6
         }
 
         private void splitButton_Click(object sender, EventArgs e)
         {
+<<<<<<< HEAD
+=======
+<<<<<<< HEAD
+            if (textBox1 == null || textBox1.Text == "0")
+            {
+                textBox1.Text = "/";
+            }
+            else
+            {
+                textBox1.Text = textBox1.Text + "/";
+            }
+=======
+>>>>>>> 23db5bb8f60b19f76262f5b013aa5bbbbc397ba6
             a = Convert.ToDouble(this.textBox1.Text);
             c = "/";
             this.textBox1.Clear();
             this.textBox1.Focus();
+<<<<<<< HEAD
+=======
+>>>>>>> master
+>>>>>>> 23db5bb8f60b19f76262f5b013aa5bbbbc397ba6
         }
 
         private void pointButton_Click(object sender, EventArgs e)
         {
+<<<<<<< HEAD
+=======
+<<<<<<< HEAD
+            if (textBox1.Text.Contains(".") == false)
+            {
+                textBox1.Text = textBox1.Text+ ".";
+            }
+            
+=======
+>>>>>>> 23db5bb8f60b19f76262f5b013aa5bbbbc397ba6
             if (this.textBox1.Text.Contains('.') == false)
             {
                 this.textBox1.Text = this.textBox1.Text + ".";
@@ -200,6 +367,10 @@ namespace Calculadora
                     this.textBox1.Text = Convert.ToString(b / a);
                     break;
             }
+<<<<<<< HEAD
+=======
+>>>>>>> master
+>>>>>>> 23db5bb8f60b19f76262f5b013aa5bbbbc397ba6
         }
     }
 }
