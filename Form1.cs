@@ -16,6 +16,7 @@ namespace Calculadora
         {
             InitializeComponent();
         }
+<<<<<<< HEAD
 
         private void oneButton_Click(object sender, EventArgs e)
         {
@@ -24,13 +25,30 @@ namespace Calculadora
                 textBox1.Text = "1";
             }
             else { 
+=======
+        double a;
+        double b;
+        string c;
+        private void oneButton_Click(object sender, EventArgs e)
+        {
+            if (textBox1.Text == "")
+            {
+                textBox1.Text = "1";
+            }
+            else
+            {
+>>>>>>> master
                 textBox1.Text = textBox1.Text + "1";
             }
         }
 
         private void twoButton_Click(object sender, EventArgs e)
         {
+<<<<<<< HEAD
             if (textBox1 == null || textBox1.Text == "0")
+=======
+            if (textBox1.Text == "")
+>>>>>>> master
             {
                 textBox1.Text = "2";
             }
@@ -42,7 +60,11 @@ namespace Calculadora
 
         private void threeButton_Click(object sender, EventArgs e)
         {
+<<<<<<< HEAD
             if (textBox1 == null || textBox1.Text == "0")
+=======
+            if (textBox1.Text == "")
+>>>>>>> master
             {
                 textBox1.Text = "3";
             }
@@ -54,7 +76,11 @@ namespace Calculadora
 
         private void fourButton_Click(object sender, EventArgs e)
         {
+<<<<<<< HEAD
             if (textBox1 == null || textBox1.Text == "0")
+=======
+            if (textBox1.Text == "")
+>>>>>>> master
             {
                 textBox1.Text = "4";
             }
@@ -66,7 +92,11 @@ namespace Calculadora
 
         private void fiveButton_Click(object sender, EventArgs e)
         {
+<<<<<<< HEAD
             if (textBox1 == null || textBox1.Text == "0")
+=======
+            if (textBox1.Text == "")
+>>>>>>> master
             {
                 textBox1.Text = "5";
             }
@@ -78,7 +108,11 @@ namespace Calculadora
 
         private void sixButton_Click(object sender, EventArgs e)
         {
+<<<<<<< HEAD
             if (textBox1 == null || textBox1.Text == "0")
+=======
+            if (textBox1.Text == "")
+>>>>>>> master
             {
                 textBox1.Text = "6";
             }
@@ -90,7 +124,11 @@ namespace Calculadora
 
         private void sevenButton_Click(object sender, EventArgs e)
         {
+<<<<<<< HEAD
             if (textBox1 == null || textBox1.Text == "0")
+=======
+            if (textBox1.Text == "")
+>>>>>>> master
             {
                 textBox1.Text = "7";
             }
@@ -102,7 +140,11 @@ namespace Calculadora
 
         private void eightButton_Click(object sender, EventArgs e)
         {
+<<<<<<< HEAD
             if (textBox1 == null || textBox1.Text == "0")
+=======
+            if (textBox1.Text == "")
+>>>>>>> master
             {
                 textBox1.Text = "8";
             }
@@ -114,7 +156,11 @@ namespace Calculadora
 
         private void nineButton_Click(object sender, EventArgs e)
         {
+<<<<<<< HEAD
             if (textBox1 == null || textBox1.Text == "0")
+=======
+            if (textBox1.Text == "")
+>>>>>>> master
             {
                 textBox1.Text = "9";
             }
@@ -126,7 +172,11 @@ namespace Calculadora
 
         private void zeroButton_Click(object sender, EventArgs e)
         {
+<<<<<<< HEAD
             if (textBox1 == null || textBox1.Text == "0")
+=======
+            if (textBox1.Text == "")
+>>>>>>> master
             {
                 textBox1.Text = "0";
             }
@@ -138,6 +188,7 @@ namespace Calculadora
 
         private void plusButton_Click(object sender, EventArgs e)
         {
+<<<<<<< HEAD
             if (textBox1 == null || textBox1.Text == "0")
             {
                 textBox1.Text = "+";
@@ -146,10 +197,17 @@ namespace Calculadora
             {
                 textBox1.Text = textBox1.Text + "+";
             }
+=======
+            a = Convert.ToDouble(this.textBox1.Text);
+            c = "+";
+            this.textBox1.Clear();
+            this.textBox1.Focus();
+>>>>>>> master
         }
 
         private void minusButton_Click(object sender, EventArgs e)
         {
+<<<<<<< HEAD
             if (textBox1 == null || textBox1.Text == "0")
             {
                 textBox1.Text = "-";
@@ -158,10 +216,17 @@ namespace Calculadora
             {
                 textBox1.Text = textBox1.Text + "-";
             }
+=======
+            a = Convert.ToDouble(this.textBox1.Text);
+            c = "-";
+            this.textBox1.Clear();
+            this.textBox1.Focus();
+>>>>>>> master
         }
 
         private void multiplyButton_Click(object sender, EventArgs e)
         {
+<<<<<<< HEAD
             if (textBox1 == null || textBox1.Text == "0")
             {
                 textBox1.Text = "x";
@@ -170,10 +235,17 @@ namespace Calculadora
             {
                 textBox1.Text = textBox1.Text + "x";
             }
+=======
+            a = Convert.ToDouble(this.textBox1.Text);
+            c = "*";
+            this.textBox1.Clear();
+            this.textBox1.Focus();
+>>>>>>> master
         }
 
         private void splitButton_Click(object sender, EventArgs e)
         {
+<<<<<<< HEAD
             if (textBox1 == null || textBox1.Text == "0")
             {
                 textBox1.Text = "/";
@@ -182,15 +254,51 @@ namespace Calculadora
             {
                 textBox1.Text = textBox1.Text + "/";
             }
+=======
+            a = Convert.ToDouble(this.textBox1.Text);
+            c = "/";
+            this.textBox1.Clear();
+            this.textBox1.Focus();
+>>>>>>> master
         }
 
         private void pointButton_Click(object sender, EventArgs e)
         {
+<<<<<<< HEAD
             if (textBox1.Text.Contains(".") == false)
             {
                 textBox1.Text = textBox1.Text+ ".";
             }
             
+=======
+            if (this.textBox1.Text.Contains('.') == false)
+            {
+                this.textBox1.Text = this.textBox1.Text + ".";
+            }
+        }
+
+        private void sameButton_Click(object sender, EventArgs e)
+        {
+            b = Convert.ToDouble(this.textBox1.Text);
+            switch (c)
+            {
+                case "+":
+                    this.textBox1.Text = Convert.ToString(b + a);
+                    break;
+
+                case "-":
+                    this.textBox1.Text = Convert.ToString(b - a);
+                    break;
+
+                case "*":
+                    this.textBox1.Text = Convert.ToString(b * a);
+                    break;
+
+                case "/":
+                    this.textBox1.Text = Convert.ToString(b / a);
+                    break;
+            }
+>>>>>>> master
         }
     }
 }
