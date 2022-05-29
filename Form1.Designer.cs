@@ -175,6 +175,7 @@
             this.threeButton.TabIndex = 4;
             this.threeButton.Text = "3";
             this.threeButton.UseVisualStyleBackColor = true;
+            this.threeButton.Click += new System.EventHandler(this.threeButton_Click);
             // 
             // sixButton
             // 
@@ -195,6 +196,7 @@
             this.fiveButton.TabIndex = 6;
             this.fiveButton.Text = "5";
             this.fiveButton.UseVisualStyleBackColor = true;
+            this.fiveButton.Click += new System.EventHandler(this.fiveButton_Click);
             // 
             // fourButton
             // 
@@ -205,6 +207,7 @@
             this.fourButton.TabIndex = 5;
             this.fourButton.Text = "4";
             this.fourButton.UseVisualStyleBackColor = true;
+            this.fourButton.Click += new System.EventHandler(this.fourButton_Click);
             // 
             // pointButton
             // 
