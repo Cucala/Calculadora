@@ -41,5 +41,30 @@ namespace Calculadora
         {
             textBox1.Text = textBox1.Text + "5";
         }
+
+        private void sixButton_Click(object sender, EventArgs e)
+        {
+            textBox1.Text = textBox1.Text + "6";
+        }
+
+        private void sevenButton_Click(object sender, EventArgs e)
+        {
+            textBox1.Text = textBox1.Text + "7";
+        }
+
+        private void eightButton_Click(object sender, EventArgs e)
+        {
+            textBox1.Text = textBox1.Text + "8";
+        }
+
+        private void nineButton_Click(object sender, EventArgs e)
+        {
+            textBox1.Text = textBox1.Text + "9";
+        }
+
+        private void zeroButton_Click(object sender, EventArgs e)
+        {
+            textBox1.Text = textBox1.Text + "0";
+        }
     }
 }

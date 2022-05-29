@@ -186,6 +186,7 @@
             this.sixButton.TabIndex = 7;
             this.sixButton.Text = "6";
             this.sixButton.UseVisualStyleBackColor = true;
+            this.sixButton.Click += new System.EventHandler(this.sixButton_Click);
             // 
             // fiveButton
             // 
@@ -228,6 +229,7 @@
             this.zeroButton.TabIndex = 12;
             this.zeroButton.Text = "0";
             this.zeroButton.UseVisualStyleBackColor = true;
+            this.zeroButton.Click += new System.EventHandler(this.zeroButton_Click);
             // 
             // signButton
             // 
@@ -248,6 +250,7 @@
             this.nineButton.TabIndex = 10;
             this.nineButton.Text = "9";
             this.nineButton.UseVisualStyleBackColor = true;
+            this.nineButton.Click += new System.EventHandler(this.nineButton_Click);
             // 
             // eightButton
             // 
@@ -258,6 +261,7 @@
             this.eightButton.TabIndex = 9;
             this.eightButton.Text = "8";
             this.eightButton.UseVisualStyleBackColor = true;
+            this.eightButton.Click += new System.EventHandler(this.eightButton_Click);
             // 
             // sevenButton
             // 
@@ -268,6 +272,7 @@
             this.sevenButton.TabIndex = 8;
             this.sevenButton.Text = "7";
             this.sevenButton.UseVisualStyleBackColor = true;
+            this.sevenButton.Click += new System.EventHandler(this.sevenButton_Click);
             // 
             // Form1
             // 
