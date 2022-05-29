@@ -21,5 +21,10 @@ namespace Calculadora
         {
             textBox1.Text = textBox1.Text + "1";
         }
+
+        private void twoButton_Click(object sender, EventArgs e)
+        {
+            textBox1.Text = textBox1.Text + "2";
+        }
     }
 }
